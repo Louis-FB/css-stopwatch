@@ -1,2 +1,2 @@
 ## CSS Stopwatch
-#### A functional stopwatch made in CSS and Javascript
+A functional stopwatch made in CSS and Javascript
