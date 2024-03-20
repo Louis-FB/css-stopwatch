@@ -1,11 +1,17 @@
 class Stopwatch {
   constructor() {
-    this.running = false;
+    var running = false;
+    var elapsedTime = 0;
   }
   start() {
     this.running = true;
   }
-  stop() {}
-  reset() {}
+  stop() {
+    running = false;
+  }
+  reset() {
+    running = false;
+    elapsedTime = 0;
+  }
   getCurrentTime() {}
 }
